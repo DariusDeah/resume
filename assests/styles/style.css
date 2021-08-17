@@ -1,0 +1,91 @@
+:root {
+  --blue: rgb(28 69 135)
+}
+
+section .descriptions {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.side-panel {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  /* margin: 2rem 12rem 0 12rem; */
+  height: 70vh;
+  padding: 2px;
+  width: 40rem;
+  padding-left: 10rem;
+}
+
+header .page-titlebox {
+  display: flex;
+  padding: 0;
+}
+
+header .page-title {
+  display: flex;
+  justify-content: center;
+  background: var(--blue);
+  color: white;
+  padding: 1.5rem;
+  border: solid .5rem black;
+  font-size: 2.5rem;
+  margin-top: 0;
+  /* animation-name: slide;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; */
+}
+
+footer {
+  border: solid black 3px;
+  height: 10vh;
+  padding: 1.5rem;
+  background: var(--blue);
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+main {
+  display: flex;
+}
+
+/* @keyframes slide {
+  0% {
+    transform: translateX(-100rem);
+  }
+
+  50% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100rem);
+  }
+}*/
+
+* {
+  margin: 0;
+
+}
+
+.article-title {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.whole-article {
+  justify-content: space-between;
+}
